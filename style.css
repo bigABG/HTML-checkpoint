@@ -4,48 +4,68 @@
     margin: 0;
     padding: 0;
 }
+
+
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: orange;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
+
+
 nav {
-    background-color: #444;
+    background-color: burlywood;
     padding: 0.5rem;
     text-align: center;
 }
+
+
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
 }
-section {
+
+
+#courses {
     padding: 2rem;
+    text-align: center;
 }
-video {
-    width: 100%;
+
+
+#contact {
+    padding: 2rem;
+    text-align: center;
 }
-audio {
-    width: 100%;
+
+#project > h2{
+    text-align: center;
 }
+
+
+iframe {
+    width: 40%;
+    border: 5px double orange;
+}
+
+
 form {
     margin-top: 1rem;
 }
+
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
+    background-color: antiquewhite;
 }
+
+
 th, td {
-    border: 1px solid #ddd;
+    border: 5px outset gray;
     padding: 0.5rem;
     text-align: center;
-}
-.section {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
