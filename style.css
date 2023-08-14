@@ -1,12 +1,20 @@
  /* Internal inline styles */
- body {
+/* Styles for the entire body */
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Background image for the body */
+body {
+    background-image: url('pbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* Header styles */
+/* Styling for the header element */
 header {
     background-color: orange;
     color: #fff;
@@ -14,58 +22,56 @@ header {
     padding: 1rem;
 }
 
-
+/* Styling for the navigation bar */
 nav {
     background-color: burlywood;
     padding: 0.5rem;
     text-align: center;
 }
 
-
+/* Styling for links within the navigation bar */
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
 }
 
-
-#courses {
-    padding: 2rem;
+/* Styling for sections */
+section {
     text-align: center;
 }
 
-
-#contact {
-    padding: 2rem;
-    text-align: center;
-}
-
-#project > h2{
-    text-align: center;
-}
-
-
+/* Styling for iframes */
 iframe {
     width: 40%;
     border: 5px double orange;
 }
 
-
+/* Styling for forms */
 form {
     margin-top: 1rem;
 }
 
+/* Styling for a list within an element with the ID 'projects' */
+#projects > ul {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+    display: inline;
+    padding: 2px;
+}
 
+/* Styling for tables */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
-    background-color: antiquewhite;
+    background-color: yellow;
 }
 
-
+/* Styling for table headers and cells */
 th, td {
-    border: 5px outset gray;
+    border: 5px outset orangered;
     padding: 0.5rem;
     text-align: center;
 }
