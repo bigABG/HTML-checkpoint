@@ -8,7 +8,7 @@ body {
 
 /* Background image for the body */
 body {
-    background-image: url('pbg.jpg');
+    background-color: antiquewhite;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ body {
 /* Header styles */
 /* Styling for the header element */
 header {
-    background-color: orange;
+    background-color: #BFB3A8;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -24,7 +24,7 @@ header {
 
 /* Styling for the navigation bar */
 nav {
-    background-color: burlywood;
+    background-color: #bfb3a87d;
     padding: 0.5rem;
     text-align: center;
 }
@@ -44,7 +44,8 @@ section {
 /* Styling for iframes */
 iframe {
     width: 40%;
-    border: 5px double orange;
+    border: 5px solid #BFB3A8;
+    border-radius: 11px;
 }
 
 /* Styling for forms */
@@ -66,12 +67,15 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
-    background-color: yellow;
+    background-color: #bfb3a87c;
 }
 
 /* Styling for table headers and cells */
 th, td {
-    border: 5px outset orangered;
+    border: 5px solid #bfb3a8;
     padding: 0.5rem;
     text-align: center;
+}
+footer {
+    background-color: antiquewhite;
 }
