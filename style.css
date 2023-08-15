@@ -41,6 +41,10 @@ section {
     text-align: center;
 }
 
+.contact {
+    text-align: center;
+}
+
 /* Styling for iframes */
 iframe {
     width: 40%;
